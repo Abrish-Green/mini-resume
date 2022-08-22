@@ -17,7 +17,7 @@ function App() {
   ]
   return (
     <>
-      <div className='w-full inline-flex gap-10 justify-center mt-10'>
+      <div className='w-full px-10 py-15 gap-y-7 flex-col md:flex-row md:inline-flex md:gap-10 md:justify-center md:mt-10'>
           {
         data && data.map((resume) => {
           return (
