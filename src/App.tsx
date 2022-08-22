@@ -11,8 +11,8 @@ function App() {
     },
     {
       Name: "Green H",
-      Experience: "The person who builds, adjusts, and/or maintains it.",
-      Skills: ["python", "c++", "mongodb"] 
+      Experience: "Web developers may work for small companies, large corporations, or as freelancers, using technical and creative skills to create functional websites.",
+      Skills: ["python", "linux"] 
     }
   ]
   return (

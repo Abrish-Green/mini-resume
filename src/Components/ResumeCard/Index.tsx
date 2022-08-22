@@ -12,7 +12,7 @@ const Index = ({Name, Experience, Skills}: ResumeProps) => {
 
   return (
       <>
-        <div className="w-80 h-auto border flex-col">
+        <div className="w-80 h-full shadow-lg  flex-col">
         <div className="py-4 px-5 border bg-slate-900 flex-col w-full">
           <Header Name={'Name'} />
           <Description DescriptionText={Name} />
