@@ -1,9 +1,9 @@
 import React from 'react';
-import Index from './Components/ResumeCard/Index';
+import Resume from './Components/ResumeCard/Index';
 
 function App() {
 
-  const data = [
+const data = [
     {
       Name: "Abrham Muche",
       Experience: "The person who builds, adjusts, and/or maintains it.",
@@ -21,7 +21,7 @@ function App() {
           {
         data && data.map((resume) => {
           return (
-             <Index Name={resume.Name} Experience={resume.Experience} Skills={resume.Skills} />
+             <Resume Name={resume.Name} Experience={resume.Experience} Skills={resume.Skills} />
           )
         })
       }

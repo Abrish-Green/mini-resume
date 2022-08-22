@@ -15,7 +15,7 @@ const Skill = ({Skill}:{Skill:string[]}) => {
             
             {skill &&
               skill.map((skillItem) => {
-                return <li>{skillItem}</li>
+                return <li>{(skillItem)}</li>
               })
             }
             <li>
